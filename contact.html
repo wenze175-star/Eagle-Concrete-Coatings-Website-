@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Free Quote | Eagle Concrete Coatings | South Metro Minneapolis MN</title>
+  <meta name="description" content="Request a free concrete floor coating quote from Eagle Concrete Coatings. Serving Lakeville, Apple Valley, Burnsville, Eagan, Prior Lake, Savage, Shakopee, Farmington, and Rosemount MN. Call (952) 769-7905." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="nav-logo-text">Eagle Concrete<br><span>Coatings LLC</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:9527697905" class="nav-phone">(952) 769-7905</a>
+        <a href="contact.html" class="btn btn-red">Get Free Quote</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="tel:9527697905" class="btn btn-outline">(952) 769-7905</a>
+    <a href="contact.html" class="btn btn-red">Get Free Quote</a>
+  </div>
+
+  <main class="page-top">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span class="current">Contact</span>
+          </div>
+          <h1>Get Your Free<br>Concrete Coating Quote</h1>
+          <p>No pressure. No obligation. Colton will personally visit your property and give you an honest, detailed quote — usually within 48 hours of your request.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- FORM -->
+          <div>
+            <div class="contact-form-card">
+              <div class="section-label" style="margin-bottom:8px;">Request a Quote</div>
+              <h3 style="margin-bottom:6px;color:var(--navy);">Tell Us About Your Project</h3>
+              <p style="font-size:0.88rem;margin-bottom:28px;">Fill out the form and Colton will be in touch within 24 hours.</p>
+
+              <!-- 
+                TO ACTIVATE THIS FORM:
+                1. Go to https://formspree.io and create a free account
+                2. Create a new form and copy your form ID (looks like: xyzabcde)
+                3. Replace "YOUR_FORM_ID" in the action below with your actual ID
+                   Example: action="https://formspree.io/f/xyzabcde"
+                4. The form will then email submissions directly to you
+              -->
+              <form id="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+                  <div class="form-group">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" name="first_name" placeholder="John" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" name="last_name" placeholder="Smith" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(952) 555-0100" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" />
+                </div>
+                <div class="form-group">
+                  <label for="city">Your City</label>
+                  <select id="city" name="city">
+                    <option value="">Select your city...</option>
+                    <option>Lakeville</option>
+                    <option>Apple Valley</option>
+                    <option>Burnsville</option>
+                    <option>Eagan</option>
+                    <option>Prior Lake</option>
+                    <option>Savage</option>
+                    <option>Shakopee</option>
+                    <option>Farmington</option>
+                    <option>Rosemount</option>
+                    <option>Other South Metro city</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="project-type">Project Type *</label>
+                  <select id="project-type" name="project_type" required>
+                    <option value="">Select project type...</option>
+                    <option>Garage Floor</option>
+                    <option>Patio / Outdoor Surface</option>
+                    <option>Basement Floor</option>
+                    <option>Commercial / Industrial</option>
+                    <option>Multiple Areas</option>
+                    <option>Not Sure Yet</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Tell Us More (Optional)</label>
+                  <textarea id="message" name="message" placeholder="Approximate square footage, any specific concerns, best time to reach you..."></textarea>
+                </div>
+                <input type="text" name="_gotcha" style="display:none;" />
+                <input type="hidden" name="_subject" value="New Quote Request - Eagle Concrete Coatings" />
+                <button type="submit" class="btn btn-red" style="width:100%;justify-content:center;padding:16px;">
+                  Send Quote Request
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+                <p style="font-size:0.78rem;color:var(--gray-500);text-align:center;margin-top:12px;">We respond to all requests within 24 hours. Your information is never shared.</p>
+              </form>
+            </div>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div>
+
+            <div class="phone-hero">
+              <p style="font-size:0.8rem;font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gray-500);">Prefer to call? Colton answers personally.</p>
+              <a href="tel:9527697905" class="phone-hero-num">(952) 769-7905</a>
+              <p class="phone-hero-sub">Mon–Sat, 7am–7pm &bull; Calls answered by Colton directly</p>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.81a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.69 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Phone</div>
+                  <div class="contact-info-value"><a href="tel:9527697905">(952) 769-7905</a></div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Email</div>
+                  <div class="contact-info-value"><a href="mailto:eagleconcretecoatingsl.l.c@gmail.com">eagleconcretecoatingsl.l.c@gmail.com</a></div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Service Area</div>
+                  <div class="contact-info-value">South Metro Minneapolis, MN</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hours-grid">
+              <h4>Hours of Operation</h4>
+              <div class="hours-row">
+                <span class="hours-day">Monday – Friday</span>
+                <span class="hours-time">7:00am – 7:00pm</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Saturday</span>
+                <span class="hours-time">8:00am – 5:00pm</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Sunday</span>
+                <span class="hours-time">By appointment</span>
+              </div>
+            </div>
+
+            <div class="response-promise">
+              <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              We respond to all quote requests within 24 hours, guaranteed.
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE AREA -->
+    <section class="section area-section">
+      <div class="container">
+        <div class="section-header center">
+          <div class="section-label">Where We Work</div>
+          <h2>Cities We Serve</h2>
+          <p>Eagle Concrete Coatings serves homeowners and businesses across the South Metro Minneapolis area. Don't see your city? Give us a call — we may still be able to help.</p>
+        </div>
+        <div class="cities-grid">
+          <div class="city-pill">Lakeville</div>
+          <div class="city-pill">Apple Valley</div>
+          <div class="city-pill">Burnsville</div>
+          <div class="city-pill">Eagan</div>
+          <div class="city-pill">Prior Lake</div>
+          <div class="city-pill">Savage</div>
+          <div class="city-pill">Shakopee</div>
+          <div class="city-pill">Farmington</div>
+          <div class="city-pill">Rosemount</div>
+        </div>
+        <p style="text-align:center;margin-top:24px;font-size:0.88rem;color:var(--gray-500);">
+          Not on the list? Call <a href="tel:9527697905" style="color:var(--red);font-weight:600;">(952) 769-7905</a> and Colton will let you know if he can make it work.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div class="nav-logo-text">Eagle Concrete<br><span>Coatings LLC</span></div>
+          </a>
+          <p>Professional polyurea floor coatings serving the South Metro Minneapolis area. Locally owned and operated by Colton Kunkel.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Colton</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#garage">Garage Floors</a></li>
+            <li><a href="services.html#patio">Patio &amp; Outdoor</a></li>
+            <li><a href="services.html#basement">Basement Floors</a></li>
+            <li><a href="services.html#commercial">Commercial</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.81a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.69 16.92z"/></svg>
+            <span><a href="tel:9527697905">(952) 769-7905</a></span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span><a href="mailto:eagleconcretecoatingsl.l.c@gmail.com">eagleconcretecoatingsl.l.c@gmail.com</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Eagle Concrete Coatings LLC. All rights reserved.</p>
+        <p>South Metro Minneapolis, MN &mdash; <a href="contact.html">Get a Free Quote</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
